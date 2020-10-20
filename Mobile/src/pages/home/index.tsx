@@ -4,7 +4,7 @@ import { View, ImageBackground, Text, Image, StyleSheet } from 'react-native';
 import { RectButton } from 'react-native-gesture-handler';
 
 const home = () => {
-    return (
+    return ( 
     <ImageBackground 
       source = {require ('../../assets/home-background.png')} 
       style = {styles.container}
